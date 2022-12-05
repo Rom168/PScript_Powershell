@@ -1,4 +1,3 @@
-﻿
-$user = Read-Host "Quel utilisateur voulez-vous supprimer ?"
+﻿$user = Read-host "Entrez l'utilisateur à supprimer : "
 
-Remove-ADUser -Identity $user;
+Remove-ADUser  -Identity  $user
